@@ -28,9 +28,14 @@ const WhatToExpect: React.FC = () => {
             <h3 className="text-xl font-semibold text-gray-800">
               Cutting-Edge Techniques to Boost Sales and Conversions
             </h3>
-            <p className="mt-2 text-white">
-              You'll uncover advanced strategies for closing deals more efficiently.
-            </p>
+
+           { /* eslint-disable react/no-unescaped-entities  */}
+<p className="mt-2 text-white">
+  You'll uncover advanced strategies for closing deals more efficiently.
+</p>
+ {/*eslint-enable react/no-unescaped-entities */}
+
+   
           </div>
 
           {/* Live Q&A */}
@@ -39,9 +44,11 @@ const WhatToExpect: React.FC = () => {
             <h3 className="text-xl font-semibold text-gray-800">
               Live Q&A with Industry Leaders
             </h3>
+           { /* eslint-disable react/no-unescaped-entities  */}
             <p className="mt-2 text-white">
               At the end of the session, you'll have the opportunity to ask questions or get personalized tips to improve your real estate business.
             </p>
+           { /* eslint-enable react/no-unescaped-entities */}
           </div>
 
           {/* Networking Opportunities */}
